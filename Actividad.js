@@ -1,6 +1,7 @@
 import fs from 'fs'
 
 class ProductManager {
+    
     constructor(filename) {
         this.path = filename,
         this.format = 'utf-8'
